@@ -19,7 +19,7 @@
 
         try
         {
-            string taxCode = TaxCodeBL.GetCodiceFiscale(lastName, firstName, dateOfBirth, placeOfBirth, gender);
+            string taxCode = TaxCodeBL.GetTaxCode(lastName, firstName, dateOfBirth, placeOfBirth, gender);
             Console.WriteLine($"The generated tax code is: {taxCode}");
         }
         catch (Exception ex)
