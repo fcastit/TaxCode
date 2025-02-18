@@ -1,6 +1,9 @@
-﻿namespace TaxCode
+﻿
+using TaxCode;
+
+class Program
 {
-    public static void Main()
+    static void Main()
     {
         Console.Write("Enter first name: ");
         string firstName = Console.ReadLine();
